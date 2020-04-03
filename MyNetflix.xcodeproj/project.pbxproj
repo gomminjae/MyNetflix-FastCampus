@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,8 +18,6 @@
 		94098367243469D700FD1040 /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94098366243469D700FD1040 /* Player.storyboard */; };
 		94DFD7532435CED7009687ED /* RecommendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DFD7522435CED7009687ED /* RecommendListViewController.swift */; };
 		94DFD7552435DA88009687ED /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DFD7542435DA88009687ED /* SearchViewController.swift */; };
-		94DFD77D2436E2DD009687ED /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 94DFD77C2436E2DD009687ED /* Kingfisher */; };
-		94DFD77E2436E2DD009687ED /* Kingfisher in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 94DFD77C2436E2DD009687ED /* Kingfisher */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		94DFD7812436F11B009687ED /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DFD7802436F11B009687ED /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +28,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				94DFD77E2436E2DD009687ED /* Kingfisher in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,7 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94DFD77D2436E2DD009687ED /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +116,6 @@
 			);
 			name = MyNetflix;
 			packageProductDependencies = (
-				94DFD77C2436E2DD009687ED /* Kingfisher */,
 			);
 			productName = MyNetflix;
 			productReference = 9409834B243468AA00FD1040 /* MyNetflix.app */;
@@ -151,7 +146,6 @@
 			);
 			mainGroup = 94098342243468AA00FD1040;
 			packageReferences = (
-				94DFD77B2436E2DD009687ED /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 9409834C243468AA00FD1040 /* Products */;
 			projectDirPath = "";
@@ -386,25 +380,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		94DFD77B2436E2DD009687ED /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.13.3;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		94DFD77C2436E2DD009687ED /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 94DFD77B2436E2DD009687ED /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 94098343243468AA00FD1040 /* Project object */;
 }
