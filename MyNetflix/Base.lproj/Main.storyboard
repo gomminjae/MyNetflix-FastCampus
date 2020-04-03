@@ -153,9 +153,6 @@
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="0nj-Hz-IRN">
                                 <rect key="frame" x="0.0" y="44" width="414" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <outlet property="delegate" destination="Lf4-yK-Bdw" id="6TM-0x-tDo"/>
-                                </connections>
                             </searchBar>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="YUd-8E-56L">
                                 <rect key="frame" x="0.0" y="100" width="414" height="713"/>
@@ -191,10 +188,6 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
-                                <connections>
-                                    <outlet property="dataSource" destination="Lf4-yK-Bdw" id="9fq-TG-aub"/>
-                                    <outlet property="delegate" destination="Lf4-yK-Bdw" id="WE1-ht-gbf"/>
-                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
