@@ -96,9 +96,6 @@ class ResultCell: UICollectionViewCell {
     @IBOutlet weak var movieThumbnail: UIImageView!
 }
 
-
-
-
 class SearchAPI {
     static func search(_ term: String, completion: @escaping ([Movie]) -> Void) {
         let session = URLSession(configuration: .default)
@@ -113,10 +110,8 @@ class SearchAPI {
         urlComponents.queryItems?.append(termQuery)
         let requestURL = urlComponents.url!
        
-        
         let dataTask = session.dataTask(with: requestURL) { (data, response, error) in
             let successRange = 200..<300
-
             // error 가 없고, status code 가 2xx 이어야 함
             guard error == nil,
                 let statusCode = (response as? HTTPURLResponse)?.statusCode,

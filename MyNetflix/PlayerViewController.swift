@@ -34,7 +34,6 @@ class PlayerViewController: UIViewController {
         super.viewWillAppear(animated)
         play()
     }
-    
 
     @IBAction func closeButtonTapped(_ sender: Any) {
         reset()
@@ -64,7 +63,6 @@ class PlayerViewController: UIViewController {
         player.replaceCurrentItem(with: nil)
     }
 }
-
 
 extension AVPlayer {
     var isPlaying: Bool {

@@ -6,7 +6,6 @@
 //  Copyright © 2020 com.joonwon. All rights reserved.
 //
 
-
 // https://developer.apple.com/documentation/avfoundation/avplayerlayer
 
 import UIKit
