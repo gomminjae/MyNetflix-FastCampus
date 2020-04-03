@@ -25,7 +25,7 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="T0Q-4y-bTn" firstAttribute="leading" secondItem="Du5-Th-wYi" secondAttribute="leading" constant="662" id="6M9-Be-Rbu"/>
+                            <constraint firstItem="Du5-Th-wYi" firstAttribute="trailing" secondItem="T0Q-4y-bTn" secondAttribute="trailing" constant="23" id="Gg1-sl-N2N"/>
                             <constraint firstItem="T0Q-4y-bTn" firstAttribute="top" secondItem="Du5-Th-wYi" secondAttribute="top" constant="42" id="vID-mj-x4M"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Du5-Th-wYi"/>
