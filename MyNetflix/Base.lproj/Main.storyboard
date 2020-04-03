@@ -210,10 +210,6 @@
                         <viewLayoutGuide key="safeArea" id="n9k-jk-E7Q"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="검색" image="magnifyingglass" catalog="system" id="UWE-ky-SQF"/>
-                    <connections>
-                        <outlet property="resultCollectionView" destination="YUd-8E-56L" id="P7J-7p-FA1"/>
-                        <outlet property="searchBar" destination="0nj-Hz-IRN" id="hss-MD-gVN"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9vi-cu-R4q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
