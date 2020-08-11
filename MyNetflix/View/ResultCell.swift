@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import UIKit
+
+class ResultCell: UICollectionViewCell {
+    @IBOutlet weak var movieThumbnail: UIImageView!
+    
+}
